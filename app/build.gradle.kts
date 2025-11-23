@@ -138,7 +138,7 @@ dependencies {
     implementation(libs.converter.kotlinx.serialization)
 
     /* NewPipe Extractor */
-    implementation(libs.newpipeextractor)
+    implementation("com.github.TeamNewPipe:NewPipeExtractor:0.24.8")
 
 
     /* Coil */
